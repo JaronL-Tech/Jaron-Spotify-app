@@ -18,7 +18,7 @@ function Playlist(){
                 isRemoval={true}
                 onRemove={props.onRemove}
                 />
-                <button className="Playlist-save" onClick={props.onSave}>Save to Spotify</button>
+                <button className="Playlist-save" onClick={props.onSave}>Save to Playlist</button>
             </div>
         );
     }
